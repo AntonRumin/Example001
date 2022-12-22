@@ -38,9 +38,11 @@ if (numberNum == 6)
 {
     Console.Write("Суббота");
 }
-if (numberNum == 7)
+else if (numberNum == 7)
 {
     Console.Write("Воскресенье");
 }
-
+else{
+    Console.Write("Вы ввели число более 7");
+}
 
